@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+      
+<head>
+    <title>
+        Secure certificate scheme for constrained devices
+    </title>
+      
+    <!-- Style to create button -->
+    <style>
+        .CA {
+            background-color: white;
+            border: 2px solid black;
+            color: green;
+            padding: 5px 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+        }
+        button{
+            background-color: beige;
+            color:black;
+            font-size: 25px;
+        }
+        h1{
+            text-align:center;
+        }
+    </style>
+</head>
+  
+<body>
+    <h1>CERTIFICATE AUTHORITY</h1>
+      
+    <!-- Adding button inside the link tag -->
+    <a href='http://127.0.0.1:5000/abcd'>
+        <button class="CA">
+            ISSUE CERTIFICATE
+        </button>
+    </a>
+    <button class="CA">
+        RENEW CERTIFICATE 
+    </button>
+</body>
+  
+</html>
